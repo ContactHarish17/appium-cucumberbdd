@@ -1,0 +1,6 @@
+[Android_OnePlus INFO ] 2020-07-10 14:23:04.817 ServerManager:20 - starting appium server
+[Android_OnePlus INFO ] 2020-07-10 14:23:13.119 ServerManager:29 - Appium server started
+[Android_OnePlus INFO ] 2020-07-10 14:23:13.204 DriverManager:28 - initializing Appium driver
+[Android_OnePlus INFO ] 2020-07-10 14:23:13.250 PropertyManager:17 - loading config properties
+[Android_OnePlus INFO ] 2020-07-10 14:23:13.250 CapabilitiesManager:18 - getting capabilities
+[Android_OnePlus INFO ] 2020-07-10 14:23:13.272 CapabilitiesManager:34 - appUrl isD:\appium-cucumberbdd\artappiumcucumberbdd\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk

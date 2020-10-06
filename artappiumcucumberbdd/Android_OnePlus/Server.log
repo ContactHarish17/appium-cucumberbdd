@@ -1,0 +1,75 @@
+2020-07-10 08:53:12:944 - info: [Appium] Welcome to Appium v1.9.0
+2020-07-10 08:53:12:947 - info: [Appium] Non-default server args:
+2020-07-10 08:53:12:948 - info: [Appium]   port: 17734
+2020-07-10 08:53:12:948 - info: [Appium]   sessionOverride: true
+2020-07-10 08:53:12:948 - info: [Appium]   log: D:\appium-cucumberbdd\artappiumcucumberbdd\Android_OnePlus\Server.log
+2020-07-10 08:53:12:987 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:17734
+2020-07-10 08:53:13:071 - info: [HTTP] --> GET /wd/hub/status
+2020-07-10 08:53:13:071 - info: [HTTP] {}
+2020-07-10 08:53:13:071 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2020-07-10 08:53:13:087 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.0"}}
+2020-07-10 08:53:13:087 - info: [HTTP] <-- GET /wd/hub/status 200 17 ms - 67
+2020-07-10 08:53:13:087 - info: [HTTP] 
+2020-07-10 08:53:13:103 - info: [HTTP] --> GET /wd/hub/status
+2020-07-10 08:53:13:103 - info: [HTTP] {}
+2020-07-10 08:53:13:103 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2020-07-10 08:53:13:103 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.0"}}
+2020-07-10 08:53:13:103 - info: [HTTP] <-- GET /wd/hub/status 200 5 ms - 67
+2020-07-10 08:53:13:103 - info: [HTTP] 
+2020-07-10 08:53:14:461 - info: [HTTP] --> POST /wd/hub/session
+2020-07-10 08:53:14:461 - info: [HTTP] {"desiredCapabilities":{"app":"D:\\appium-cucumberbdd\\artappiumcucumberbdd\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"ENU7N16324000199","deviceName":"OnePlus","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"D:\\appium-cucumberbdd\\artappiumcucumberbdd\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"ENU7N16324000199"}]}}
+2020-07-10 08:53:14:461 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"D:\\appium-cucumberbdd\\artappiumcucumberbdd\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"ENU7N16324000199","deviceName":"OnePlus","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"D:\\appium-cucumberbdd\\artappiumcucumberbdd\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"ENU7N16324000199"}]}]
+2020-07-10 08:53:14:461 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1594371194461 (14:23:14 GMT+0530 (India Standard Time))
+2020-07-10 08:53:14:461 - warn: [BaseDriver] The capabilities ["chromeDriverPort"] are not standard capabilities and should have an extension prefix
+2020-07-10 08:53:14:477 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.16.0) session
+2020-07-10 08:53:14:477 - info: [Appium] Capabilities:
+2020-07-10 08:53:14:477 - info: [Appium]   chromeDriverPort: 11000
+2020-07-10 08:53:14:477 - info: [Appium]   platformName: android
+2020-07-10 08:53:14:477 - info: [Appium]   app: D:\appium-cucumberbdd\artappiumcucumberbdd\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+2020-07-10 08:53:14:477 - info: [Appium]   appActivity: com.swaglabsmobileapp.SplashActivity
+2020-07-10 08:53:14:477 - info: [Appium]   appPackage: com.swaglabsmobileapp
+2020-07-10 08:53:14:477 - info: [Appium]   automationName: UiAutomator2
+2020-07-10 08:53:14:477 - info: [Appium]   deviceName: OnePlus
+2020-07-10 08:53:14:477 - info: [Appium]   systemPort: 10000
+2020-07-10 08:53:14:477 - info: [Appium]   udid: ENU7N16324000199
+2020-07-10 08:53:14:477 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:chr... and MJSONWP desired capabilities {"app":"D:\\appium-cucumber... were provided
+2020-07-10 08:53:14:477 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:chr...
+2020-07-10 08:53:14:492 - info: [debug] [UiAutomator2] Deleting UiAutomator2 session
+2020-07-10 08:53:14:492 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1594371194492 (14:23:14 GMT+0530 (India Standard Time))
+2020-07-10 08:53:14:523 - error: [W3C] Encountered internal error running command: InvalidArgumentError: 'systemPort' must be of type number; 'chromeDriverPort' must be of type number
+2020-07-10 08:53:14:523 - error: [W3C]     at validateCaps (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\capabilities.js:52:11)
+2020-07-10 08:53:14:523 - error: [W3C]     at parseCaps (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\capabilities.js:154:20)
+2020-07-10 08:53:14:523 - error: [W3C]     at processCapabilities (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\capabilities.js:199:43)
+2020-07-10 08:53:14:523 - error: [W3C]     at AndroidUiautomator2Driver.callee$0$0$ (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\session.js:36:14)
+2020-07-10 08:53:14:523 - error: [W3C]     at tryCatch (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2020-07-10 08:53:14:523 - error: [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2020-07-10 08:53:14:523 - error: [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2020-07-10 08:53:14:523 - error: [W3C]     at invoke (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2020-07-10 08:53:14:523 - error: [W3C]     at enqueueResult (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2020-07-10 08:53:14:523 - error: [W3C]     at new Promise (<anonymous>)
+2020-07-10 08:53:14:523 - error: [W3C]     at new F (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2020-07-10 08:53:14:523 - error: [W3C]     at AsyncIterator.enqueue (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2020-07-10 08:53:14:523 - error: [W3C]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2020-07-10 08:53:14:523 - error: [W3C]     at Object.runtime.async (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2020-07-10 08:53:14:541 - error: [W3C]     at AndroidUiautomator2Driver.callee$0$0 [as createSession] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\build\lib\basedriver\commands\session.js:35:30)
+2020-07-10 08:53:14:541 - error: [W3C]     at AndroidUiautomator2Driver.createSession$ (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:108:32)
+2020-07-10 08:53:14:543 - error: [W3C]     at tryCatch (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2020-07-10 08:53:14:543 - error: [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2020-07-10 08:53:14:543 - error: [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2020-07-10 08:53:14:544 - error: [W3C]     at invoke (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2020-07-10 08:53:14:544 - error: [W3C]     at enqueueResult (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2020-07-10 08:53:14:544 - error: [W3C]     at new Promise (<anonymous>)
+2020-07-10 08:53:14:545 - error: [W3C]     at new F (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2020-07-10 08:53:14:545 - error: [W3C]     at AsyncIterator.enqueue (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2020-07-10 08:53:14:546 - error: [W3C]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2020-07-10 08:53:14:546 - error: [W3C]     at Object.runtime.async (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2020-07-10 08:53:14:546 - error: [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\build\lib\driver.js:175:34)
+2020-07-10 08:53:14:546 - error: [W3C]     at AppiumDriver.callee$2$0$ (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\lib\appium.js:293:43)
+2020-07-10 08:53:14:546 - error: [W3C]     at tryCatch (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2020-07-10 08:53:14:546 - error: [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2020-07-10 08:53:14:546 - error: [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2020-07-10 08:53:14:546 - error: [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\m8070777\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2020-07-10 08:53:14:546 - error: [W3C]     at <anonymous>
+2020-07-10 08:53:14:546 - error: [W3C]     at process._tickCallback (internal/process/next_tick.js:189:7)
+2020-07-10 08:53:14:546 - info: [HTTP] <-- POST /wd/hub/session 400 80 ms - 5436
+2020-07-10 08:53:14:546 - info: [HTTP] 
